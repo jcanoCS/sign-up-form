@@ -18,11 +18,19 @@ header, footer {
 main {
     display: flex;
     flex-direction: row;
-    height: 88vh;
+    max-height: 88vh;
     width: 100%;
     background-color: white;
+    overflow: hidden;
 }
 
 main > * {
     width: 50vw;
+}
+
+.left > img {
+    object-fit: cover;
+    object-position: left 60%;
+    max-width: 100%;
+    min-height: 100%;
 }
