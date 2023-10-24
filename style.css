@@ -1,5 +1,5 @@
 * {
-    /* background-color: olivedrab; */
+    background-color: olivedrab;
 }
 
 body {
@@ -18,7 +18,7 @@ header, footer {
 main {
     display: flex;
     flex-direction: row;
-    max-height: 88vh;
+    height: 88vh;
     width: 100%;
     background-color: white;
     overflow: hidden;
@@ -34,3 +34,15 @@ main > * {
     max-width: 100%;
     min-height: 100%;
 }
+
+/* right side of the main/middle section */
+main > .right {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+main > .right > * {
+    height: 33.3%;
+}
+
