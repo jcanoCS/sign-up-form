@@ -1,5 +1,5 @@
 * {
-    background-color: olivedrab;
+    background-color: antiquewhite;
 }
 
 body {
@@ -15,8 +15,7 @@ header, footer {
     background-color: black;
 }
 
-main {
-    display: flex;
+main {    display: flex;
     flex-direction: row;
     height: 88vh;
     width: 100%;
@@ -44,5 +43,24 @@ main > .right {
 
 main > .right > * {
     height: 33.3%;
+}
+
+main > .right > .top {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main > .right > .bottom {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+button {
+    max-width: 120px;
+    min-width: 100px;
+    max-height: 40px;
+    min-height: 25px;
 }
 
