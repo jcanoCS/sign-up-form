@@ -64,3 +64,16 @@ button {
     min-height: 25px;
 }
 
+main > .right > .middle > div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+
