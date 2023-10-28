@@ -70,10 +70,25 @@ main > .right > .middle > div {
     flex-direction: row;
 }
 
+.middle > h3 {
+    padding-left: 25px;
+}
+
 form {
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
+}
+
+form > div {
+    display: flex;
+    flex-direction: row;
+}
+
+form .info-item {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-bottom: 10px;
 }
 
 
